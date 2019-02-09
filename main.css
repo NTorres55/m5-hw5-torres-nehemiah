@@ -41,12 +41,12 @@ main {
 article {
   text-align: center;
   width: 33.333%;
-  max-width: 200px;
-  max-height: 250px;
+  max-width: 280px;
+  height: 230px;
   margin: auto;
 }
 div {
-  width: 90%;
+  width: 85%;
   height: 100%;
 	margin: auto;
 	background-color: rgba(210,210,210,0.55);
@@ -66,7 +66,7 @@ div {
 p {
   text-align: center;
   vertical-align: middle;
-  line-height: 180px;
+  line-height: 230px;
   font-size: 7.5em;
   color: #6307c3;
   font-stretch: ultra-condensed;
@@ -74,6 +74,18 @@ p {
 @media  (max-width: 760px) {
     div {
       width: 75%;
+      height: 60%;
+  }
+    p {
+      line-height: 150px;
+  }
+}
+@media (max-width: 488px) {
+    div {
+      height: 50%;
+  }
+    p {
+      line-height: 130px;
   }
 }
 @media  (min-width: 1000px) {
@@ -85,4 +97,8 @@ p {
     main {
       width: 75%;
   }
+    p {
+      font-size: 8.5em;
+      font-weight: 600;
+    }
 }
