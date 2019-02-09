@@ -26,6 +26,7 @@ h1 {
   width: 350px;
   margin: auto;
   font-stretch: condensed;
+  line-height: .85em;
 }
 h2 {
   padding: 35px;
