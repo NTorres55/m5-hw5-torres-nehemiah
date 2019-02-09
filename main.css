@@ -27,7 +27,6 @@ h1 {
   margin: auto;
   font-stretch: condensed;
 }
-
 h2 {
   padding: 35px;
   color: #6307c3;
@@ -35,33 +34,55 @@ h2 {
   font-stretch: ultra-condensed;
   text-align: center;
 }
-
 main {
   display: flex;
   margin: auto;
 }
-
 article {
   text-align: center;
-  width: 33.333%
+  width: 33.333%;
+  max-width: 200px;
+  max-height: 250px;
+  margin: auto;
 }
-
 div {
-  max-width: 80%;
-  width: 200px;
-  height: 200px;
+  width: 90%;
+  height: 100%;
 	margin: auto;
 	background-color: rgba(210,210,210,0.55);
 	border-radius: 5px;
   border: solid 10px #6307c3;
 	box-shadow: 10px 10px 15px rgba(195,195,195,.65);
 }
-
+.box-1 {
+  background-color: #fcff00;
+}
+.box-2 {
+  background-color: #91ead6;
+}
+.box-3 {
+  background-color: #cff305;
+}
 p {
   text-align: center;
   vertical-align: middle;
-  line-height: 200px;
+  line-height: 180px;
   font-size: 7.5em;
   color: #6307c3;
   font-stretch: ultra-condensed;
+}
+@media  (max-width: 760px) {
+    div {
+      width: 75%;
+  }
+}
+@media  (min-width: 1000px) {
+    main {
+      width: 95%;
+  }
+}
+@media  (min-width: 1300px) {
+    main {
+      width: 75%;
+  }
 }
