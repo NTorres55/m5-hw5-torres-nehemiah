@@ -33,9 +33,35 @@ h2 {
   color: #6307c3;
   text-transform: uppercase;
   font-stretch: ultra-condensed;
+  text-align: center;
 }
 
 main {
   display: flex;
   margin: auto;
+}
+
+article {
+  text-align: center;
+  width: 33.333%
+}
+
+div {
+  max-width: 80%;
+  width: 200px;
+  height: 200px;
+	margin: auto;
+	background-color: rgba(210,210,210,0.55);
+	border-radius: 5px;
+  border: solid 10px #6307c3;
+	box-shadow: 10px 10px 15px rgba(195,195,195,.65);
+}
+
+p {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-size: 7.5em;
+  color: #6307c3;
+  font-stretch: ultra-condensed;
 }
