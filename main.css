@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: bahnschrift;
+  height: 100vh;
+}
+
+article, aside, details, div, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+		text-align: center;
+}
+
+header {
+  background: #6307c3;
+  color: white;
+  padding: 35px 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3.75em;
+  width: 350px;
+  margin: auto;
+  font-stretch: condensed;
+}
+
+h2 {
+  padding: 35px;
+  color: #6307c3;
+  text-transform: uppercase;
+  font-stretch: ultra-condensed;
+}
+
+main {
+  display: flex;
+  margin: auto;
+}
