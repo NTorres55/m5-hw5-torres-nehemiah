@@ -55,13 +55,13 @@ div {
   border: solid 10px #6307c3;
 	box-shadow: 10px 10px 15px rgba(195,195,195,.65);
 }
-.box-1 {
+#box-1 {
   background-color: #fcff00;
 }
-.box-2 {
+#box-2 {
   background-color: #91ead6;
 }
-.box-3 {
+#box-3 {
   background-color: #cff305;
 }
 p {
