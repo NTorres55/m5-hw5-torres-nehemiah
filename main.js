@@ -35,3 +35,15 @@ document.getElementById("box-3").addEventListener("click",
 );
 
 // click any box and get href to appear
+var a = document.createElement("button");
+var linkText = document.createTextNode("Start Over");
+
+a.appendChild(linkText);
+a.title = "my title text";
+a.href = "#";
+document.body.appendChild(a);
+
+document.getElementsByClassName("box").addEventListener("click",
+	function() {
+		document.getElementById("boxes").appendChild(a);
+	})
