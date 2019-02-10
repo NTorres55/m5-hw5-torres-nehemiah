@@ -1,5 +1,17 @@
 // User hovers over one of the boxes
+var listItem = document.getElementsByClassName("box");
 
+function mouseEnter() {
+  this.style.backgroundColor = "white";
+}
+function mouseLeave() {
+  this.style.backgroundColor = "red";
+}
+
+for (i=0; i<listItem.length; i++) {
+  listItem[i].addEventListener("mouseenter", mouseEnter);
+  listItem[i].addEventListener("mouseleave", mouseLeave);
+}
 
 // Click on box 1 message
 document.getElementById("box-1").addEventListener("click",
